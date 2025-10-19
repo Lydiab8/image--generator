@@ -1,0 +1,19 @@
+##  Installation
+
+### 1. Cloner le dépôt
+```bash
+git clone https://github.com/Lydiab8/image--generator.git
+cd image--generator
+
+### 2. Créer un environnement virtuel
+
+conda create -n ia_generative python=3.10 -y
+conda activate ia_generative
+
+### 3. Installer les dépendances
+```bash
+pip install -r requirements.txt
+
+### 4.Lancer l'application
+```bash
+python app.py
